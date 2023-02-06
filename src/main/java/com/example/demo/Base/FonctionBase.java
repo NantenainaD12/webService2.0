@@ -6,9 +6,9 @@ import java.util.Vector;
 public class FonctionBase {
     static int i=0,j=0;
     public static Connection connect() throws Exception {
-        String url="jdbc:postgresql://containers-us-west-58.railway.app:6125/railway";
+        String url="jdbc:postgresql://containers-us-west-124.railway.app:6392/railway";
         String user="postgres";
-        String passWord="YYiG1xSGZt3ZWKpJcCAw";
+        String passWord="vXgDpYp8CN8U4lX60Vyl";
         Connection connection;
         connection= DriverManager.getConnection(url,user,passWord);
         connection.setAutoCommit(true);

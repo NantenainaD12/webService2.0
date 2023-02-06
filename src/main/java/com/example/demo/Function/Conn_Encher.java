@@ -14,11 +14,11 @@ public class Conn_Encher{
 
         try{
             Class.forName("org.postgresql.Driver");
-         //   this.conn = DriverManager.getConnection("jdbc:postgresql://hattie.db.elephantsql.com:5432/rfharpmk","rfharpmk","y3_VINdERSmmXdBb9De5fbUVAUgGz4U0");
-            //étape 3: créer l'objet statement
-            String url="jdbc:postgresql://containers-us-west-58.railway.app:6125/railway";
+
+            String url="jdbc:postgresql://containers-us-west-124.railway.app:6392/railway";
             String user="postgres";
-            String passWord="YYiG1xSGZt3ZWKpJcCAw";
+            String passWord="vXgDpYp8CN8U4lX60Vyl";
+
             //postgresql://postgres:YYiG1xSGZt3ZWKpJcCAw@containers-us-west-58.railway.app:6125/railway
             this.conn=DriverManager.getConnection(url,user,passWord); //DriverManager.getConnection("jdbc:postgresql://hattie.db.elephantsql.com:5432/rfharpmk","rfharpmk","y3_VINdERSmmXdBb9De5fbUVAUgGz4U0");
             //DriverManager.getConnection("jdbc:postgresql://postgres:YYiG1xSGZt3ZWKpJcCAw@containers-us-west-58.railway.app:6125/railway","containers-us-west-58.railway.app","YYiG1xSGZt3ZWKpJcCAw");
